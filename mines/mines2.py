@@ -16,7 +16,7 @@ ASK_ACTIVATE, ASK_CODE, ASK_SEED, ASK_MINES, ASK_AMOUNT, ASK_FEEDBACK = range(6)
 
 # Hardcoded valid code
 VALID_CODE = "668dtvsd23678dgfu"
-IMAGE_PATH = "D:\mines\pos.png"  # Replace with your actual image path
+IMAGE_PATH = "D:/mines/pos.png"  # Replace with your actual image path
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     await update.message.reply_text("Do you want Mines Bomb Locator to get activated?")
